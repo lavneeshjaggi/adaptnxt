@@ -1,0 +1,27 @@
+{
+  "name": "apadnxt-internship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn source/server.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/uuid": "^8.3.1",
+    "ts-node-dev": "^1.1.8"
+  }
+}
